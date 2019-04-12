@@ -1,0 +1,23 @@
+{
+  "env": {
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "rules": {
+    "no-console":  ["error"],
+    // Переносы строк для разработки на windows
+    "linebreak-style": ["off"],
+    // 4 пробела
+    "indent": ["error", 4],
+    // Разрешить нижние подчеркивания
+    "no-underscore-dangle": [0],
+    // Разрешить пропуск строк в коде
+    "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+    // Не ставить запятые в после последнего элемента структуры
+    "comma-dangle": ["error", "never"],
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    "react/jsx-filename-extension": ["off"]
+  }
+}
