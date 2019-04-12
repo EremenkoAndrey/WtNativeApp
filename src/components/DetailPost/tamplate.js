@@ -2,6 +2,13 @@ export default function template(html, title) {
     const before = `<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
+    <style>
+        img {
+            max-width: 100%;
+            display: inline-block;
+        }
+    </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link rel='stylesheet' href='https://cdn.whotrades.com/css/mini/612e4f39533ab6944bb0d3349a39c9ff/site-on-platforma.css?612e4f39533ab6944bb0d3349a39c9ff'  />
         <link rel='stylesheet' href='https://cdn.whotrades.com/css/mini/747fd20be0b5b5355308effe8dac831a/site-on-platforma_2.css?747fd20be0b5b5355308effe8dac831a'  />
         <link rel='stylesheet' href='https://cdn.whotrades.com/css/mini/7642f81c6d0e32b431611df507ff1812/whotrades.css?7642f81c6d0e32b431611df507ff1812'  />
@@ -20,7 +27,7 @@ export default function template(html, title) {
         <link rel='stylesheet' href='https://cdn.whotrades.com/css/mini/c3b148f4733107f3f7894223ddbdaf38/react-app.css?c3b148f4733107f3f7894223ddbdaf38'  />
         <script src='https://cdn.whotrades.com/js/mini/2e4f9be60e77ad5e49a3b33e0c31607e/environment.js?2e4f9be60e77ad5e49a3b33e0c31607e'></script>
 </head>
-<body style="padding: 15px; font-size: 16px">`;
+<body style="padding: 15px;">`;
 
     const after = '</body></html>';
 
